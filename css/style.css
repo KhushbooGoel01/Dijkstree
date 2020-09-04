@@ -1,0 +1,60 @@
+  
+.page {
+  background-color: black;
+  margin: 0;
+  min-height: 100vh;
+}
+.logo img {
+  width: 30vw;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.form form input {
+  width: 25vw;
+  background-color: #888888;
+  border: solid #888888 2px;
+  justify-items: center;
+  border-radius: 10px;
+}
+.form form label {
+  color: white;
+  font-size: 1.5rem;
+}
+.form form button {
+  width: 10vw;
+  margin-top: 15px;
+  justify-items: center;
+  border-radius: 10px;
+}
+.btn-primary {
+  background-color: #2edbdb;
+  color: black;
+  border: solid #2edbdb 2px;
+  font-size: 1.2rem;
+  width: 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo img {
+    width: 40vw;
+  }
+  .form form input {
+    width: 35vw;
+  }
+  .form form button {
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo img {
+    width: 70vw;
+  }
+  .form form input {
+    width: 60vw;
+  }
+  .form form button {
+    width: 30vw;
+  }
+}
