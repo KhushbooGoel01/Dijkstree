@@ -30,18 +30,31 @@ body {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  text-align:center;
+  text-align: center;
 }
 
-img{
-width:800px;
-heigth:400px;
+img {
+  height: 500px;
 }
 
-hr{
-    border: 1px solid blue;
+hr {
+  height: 2px;
+  border-width: 0;
+  color: rgb(3, 35, 41);
+  background-color: rgb(3, 35, 41);
 }
 
-h1{
-color:blue;
+h1 {
+  color: rgb(1, 22, 32);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 70px;
+}
+.carousel {
+  margin-top: 20px;
+  margin-left: 300px;
+  align-content: center;
+}
+.carousel .carousel-item {
+  height: 600px;
 }
