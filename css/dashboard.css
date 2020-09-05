@@ -27,12 +27,21 @@ body {
 }
 
 .main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  text-align: center;
+  text-align:center;
 }
 
-h1 {
-  font-family: "Times New Roman", Times, serif;
+img{
+width:800px;
+heigth:400px;
+}
+
+hr{
+    border: 1px solid blue;
+}
+
+h1{
+color:blue;
 }
